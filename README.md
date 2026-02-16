@@ -7,6 +7,25 @@ This project leverages **React Query** for data fetching and **TailwindCSS** for
 
 ---
 
+## Project Structure 📂
+german-train-stations/
+├─ public/                  
+├─ src/
+│  ├─ api/
+│  │   └─ stations.js       
+│  ├─ components/
+│  │   ├─ MapView.jsx        
+│  │   └─ MapUpdater.jsx    
+│  ├─ hooks/
+│   │   └─ useStations.js    
+│  ├─ App.jsx
+│  └─ main.jsx
+├─ package.json
+├─ vite.config.js
+└─ README.md
+
+---
+
 ## Features ✨
 
 - Search train stations by city (case-insensitive)
@@ -44,3 +63,5 @@ Clone the repository:
 git clone https://github.com/your-username/train-stations-map.git
 cd train-stations-map
 ```
+
+
