@@ -46,16 +46,16 @@ cd train-stations-map
 ```
 
 ## Project Structure 📂
-german-train-stations/
-├─ public/                  
-├─ src/
-│  ├─ api/
+german-train-stations
+├─ public                 
+├─ src
+│  ├─ api
 │  │   └─ stations.js       
 │  ├─ components/
 │  │   ├─ MapView.jsx        
 │  │   └─ MapUpdater.jsx    
 │  ├─ hooks/
-│   │   └─ useStations.js    
+│    └─ useStations.js    
 │  ├─ App.jsx
 │  └─ main.jsx
 ├─ package.json
