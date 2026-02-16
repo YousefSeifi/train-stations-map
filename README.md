@@ -5,6 +5,24 @@ Users can filter stations by city and view their locations on an interactive map
 
 This project leverages **React Query** for data fetching and **TailwindCSS** for styling.
 
+```
+## Project Structure 📂
+german-train-stations
+├─ public                 
+├─ src
+│  ├─ api
+│  │   └─ stations.js       
+│  ├─ components/
+│  │   ├─ MapView.jsx        
+│  │   └─ MapUpdater.jsx    
+│  ├─ hooks/
+│    └─ useStations.js    
+│  ├─ App.jsx
+│  └─ main.jsx
+├─ package.json
+├─ vite.config.js
+└─ README.md
+```
 ---
 
 ## Features ✨
@@ -44,20 +62,3 @@ Clone the repository:
 git clone https://github.com/your-username/train-stations-map.git
 cd train-stations-map
 ```
-
-## Project Structure 📂
-german-train-stations
-├─ public                 
-├─ src
-│  ├─ api
-│  │   └─ stations.js       
-│  ├─ components/
-│  │   ├─ MapView.jsx        
-│  │   └─ MapUpdater.jsx    
-│  ├─ hooks/
-│    └─ useStations.js    
-│  ├─ App.jsx
-│  └─ main.jsx
-├─ package.json
-├─ vite.config.js
-└─ README.md
