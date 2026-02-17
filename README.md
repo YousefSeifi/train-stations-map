@@ -36,6 +36,12 @@ german-train-stations
 
 ---
 
+## Live Demo 🌐
+
+Check the project live at: [https://astonishing-selkie-0266fd.netlify.app](https://astonishing-selkie-0266fd.netlify.app/)
+
+---
+
 ## Technologies Used 🛠
 
 - **React 18** – UI Library
